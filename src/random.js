@@ -58,7 +58,6 @@ class Random {
     let content = {
       embed: {
         color: "#FFC0CB",
-        title: "NEKO",
         image: { url: mat.url }
       }
     };
