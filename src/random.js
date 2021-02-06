@@ -140,7 +140,7 @@ class Random {
       return console.log("Error 01: Unable to access the json content of API");
     }
 
-    let content = { embed: { description: mat.slip.advice, color: "RANDOM" } };
+    let content = mat.slip.advice
 
     return content;
   }
