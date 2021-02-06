@@ -36,11 +36,7 @@ class Random {
       return console.log("Error 01: Unable to access the json content of API");
     }
 
-    let content = { embed: { title: mat.data.title, color: "RANDOM" } };
-
-    if (mat.data.body) {
-      content.embed.description = mat.data.body;
-    }
+    let content = mat.data.body
 
     return content;
   }
@@ -73,13 +69,7 @@ class Random {
       return console.log("Error 01: Unable to access the json content of API");
     }
 
-    let content = {
-      embed: {
-        color: "#FFC0CB",
-        title: "NEKO",
-        image: { url: mat.url }
-      }
-    };
+    let content = mat.url 
 
     return content;
   }
